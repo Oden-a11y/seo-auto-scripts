@@ -17,6 +17,15 @@ A collection of useful scripts for web optimization and automation.
 - 🧠 **竞品排名反推内容分析器 (`competitor_ranking_analyzer.py`)**: 
   抓取高排名竞品大纲结构，利用内容缺口反推最优文章框架。
 
+  - 🦞 **Lobster 多模态全链路生产引擎 (`lobster_omni_content_engine.py`)**:
+  本项目中最具工程价值的调度中枢。采用 Python `asyncio` 异步高并发架构，实现五大链路一键打通：
+  1. 实时抓取高排名的 SERP 受欢迎内容结构。
+  2. 对接 **SEMrush API** 清洗搜索意图与关键词难度（KD）。
+  3. 基于大语言模型（LLM）矩阵，根据意图自动生成【小白/专家/决策者】三维用户视角的高价值二次创作。
+  4. 自动降维转换，生成高完播率的短视频分镜剧本（支持 TikTok/Reels）。
+  5. 内容反编译，将文章拆解为可交互的微型工具（如 ROI 计算器、检查表）。
+  *附带企业级日志监控与 Slack 工作区实时 Webhook 推送。*
+
 ## 📅 开源工程进度 (Roadmap)
 - [x] 初始化项目基础设施与 MIT 许可
 - [x] 上线网页 SEO/GEO 框架诊断系统与 SERP 内容反推模块
