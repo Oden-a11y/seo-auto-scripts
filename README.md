@@ -17,3 +17,16 @@ A collection of useful scripts for web optimization and automation.
 ### 运行模拟脚本
 ```bash
 python seo_keyword_generator.py
+
+### 📅 开源维护计划
+[x] 初始化项目基础架构与许可证
+
+[x] 发布第一版 SEO 关键词生成模拟脚本
+
+[ ] 对接主流 Search API 引入真实数据
+
+[ ] 增加针对 AI 搜索优化的提示词模板（GEO 策略）
+
+📄 开源协议
+本项目基于 MIT License 协议开源，欢迎所有人提交 Issue 或 Pull Request 参与维护！
+
